@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale =1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp | RuralU Web Deals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navbar-->
+    <div class="header">
+    <div class="container">
+     <div class="navbar">
+        <div class="logo">
+            <img src="images/logoruwd.jpg" width="125px" class="logo">
+        </div>
+        <div class="searchBar" >
+            <form action="#">
+                <input type="text"
+                       placeholder=" Search "
+                       name="search" class="Searchinput">
+                       <div class="assistant">
+                       <button >
+                        <img src="images/assistant.png" style="font-size: 18px;" >
+                    </button></div>
+                       <button class="mic">
+                        <img src="images/mic2.png" >
+                    </button>
+                <button class="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                       
+                </button>
+                
+            </form>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Home.html">Features</a></li>
+                <div class="dropdown">
+                    <button class="dropbtn">Go To Buy <li class="fa fa-caret-down"></li></button>
+                    <div class="dropdown_content">
+                        <a href="#">Products</a>
+                        <a href="ShopsFC.html">Shops for Consumer</a>
+                    </div>
+                </div>
+                <li><a href="">Contact US</a></li>
+                <li><a href="Account.html">MyAccount</a></li>
+            </ul>
+
+        </nav>
+        <a href="cart.html"><img src="images/cart.png" width="30px" height="30px" class="cart"></a>
+        <a href="#"><img src="images/languages.png" width="30px" height="30px" class="languages"></a>
+        <img  class=" menu-icon" src="images/menu.png" width="30px" height="30px" onclick="menutoggle()" >
+
+     </div>
+     
+    
+</div>
+</div>
+<div class="Division1">
+    <h1> Come on SignUp and Start Shopping from any Where....</h1>
+    <form>
+        <label class="labelR">SignUp as  :-</label><br>
+        <input type="checkbox" name="select" class="check1"> <label class="checklabel">B2B user</label>
+        <input type="checkbox" name="select" class="check" ><label class="checklabel">B2C user</label>
+        <input type="checkbox" name="select" class="check"><label class="checklabel">Both</label><br>
+
+        <label class="labelR">Enter First name:</label><br>
+        <input type="text" name="name" class="inputR"><br>
+
+        <label class="labelR">Enter Last name:</label><br>
+        <input type="text" name="name" class="inputR"><br>
+
+        <label class="labelR">Enter Phone Number:</label><br>
+        <input type="bigint" name="name" class="inputR"><button class="verifyPH">Verify</button><br>
+
+        <label class="labelR">Enter Gmailid:</label><br>
+        <input type="text" name="name" class="inputR"><button class="verifyGI">Verify</button><br>
+
+        <label class="labelR">Enter password:</label><br>
+        <input type="password" name="name" class="inputR"><br>
+
+        <label class="labelR">Enter Confirm password:</label><br>
+        <input type="password" name="name" class="inputR"><br>
+
+        <label class="labelR">Gender:</label><br>
+        <input type="radio"name="name" class="check1"><label class="checklabel">Male</label>
+        <input type="radio" name="name" class="check"><label class="checklabel">Female</label>
+        <input type="radio" name="name" class="check"><label class="checklabel">Prefer not to say</label><br>
+
+        <label class="labelR">DOB:</label><br>
+        <input type="date" name="name" class="inputR"><br>
+
+        <label class="labelR">GST No. if availabel:</label><br>
+        <input type="text" name="name" class="inputR"><br>
+
+        <label class="labelR">Designation:</label><br>
+        <input type="text" name="name" class="inputR"><br>
+
+        <label class="labelR">Company Name:</label><br>
+        <input type="text" name="name" class="inputR"><br>
+
+        <label class="labelR">Address:</label><br>
+        <input type="text" name="name" placeholder="address line 1" class="inputR"><br>
+        <input type="text" name="name" placeholder="address line 2" class="inputR"><br>
+
+        <label class="labelR">City</label><input type="text" class="inputR1">
+        <label class="labelR1">State</label><input type="text" class="inputR1"> 
+        <label class="labelR1">PinCode</label><input type="text" class="inputR1"><br>
+
+        <input type="checkbox" name="select" class="check1"> <label class="checklabel"><a href="T&C.html">I accept the terms and conditions of company</a></label>
+        <hr>
+        <a href=""><button class="signup">SignUp</button></a>
+        
+
+    </form>
+</div>
+
+<!--footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Download our app</h3>
+                <p>Dowmload App for Android and ios mobile phone. </p>
+                <div class="app-logo">
+                    <img src="images/play-store.png">
+                    <img src="images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+            <img src="images/logoruwd.jpg" class="logo">
+                <p>Our Purpose Is To Sustainably Make the Pleasure and Promoting of Local Brands with connection to Industries</p>
+                
+            </div>
+            <div class="footer-col-3">
+                <h3> Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Contact Us</li>
+                    <li>Help ?</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3> Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2024 RUWD</p>
+    </div>
+</div>
+
+<!--js for toggle menu-->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+</body>
+</html>
